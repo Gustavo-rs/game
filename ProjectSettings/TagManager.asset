@@ -6,6 +6,14 @@ TagManager:
   tags:
   - Ground
   - dead
+  - free
+  - free_enemy
+  - end
+  - aprimoramento
+  - invert
+  - teleport
+  - princesa
+  - save_princesa
   layers:
   - Default
   - TransparentFX

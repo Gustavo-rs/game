@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Movementrl : MonoBehaviour
 {
     [SerializeField]
     private bool vertical = false;
@@ -13,10 +13,10 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float velocity;
 
+    private bool isReverse = true;
+
     [SerializeField]
     private float distance = 1f;
-
-    private bool isReverse = true;
 
     void Start()
     {
